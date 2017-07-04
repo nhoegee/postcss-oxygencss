@@ -1,0 +1,35 @@
+{
+  "name": "postcss-oxygencss",
+  "version": "0.0.0",
+  "description": "PostCSS plugin oxygencss",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "oxygencss"
+  ],
+  "author": "Nigel Hoegee <nigelhoegee@gmail.com>",
+  "license": "MIT",
+  "repository": "nhoegee/postcss-oxygencss",
+  "bugs": {
+    "url": "https://github.com/nhoegee/postcss-oxygencss/issues"
+  },
+  "homepage": "https://github.com/nhoegee/postcss-oxygencss",
+  "dependencies": {
+    "postcss": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^20.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
